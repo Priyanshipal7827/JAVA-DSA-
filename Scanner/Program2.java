@@ -19,11 +19,17 @@ public class Program2 {
     // System.out.println("Enter Name : " + name);
     // System.out.println("Enter AGE : " + age);
 
+    // //case 2
+    // int age  = sc.nextInt();
+    // String name  = sc.nextLine();
+    // System.out.println("Enter AGE : " + age);
+    // System.out.println("Enter Name : " + name);
+
     //case 2
-    int age  = sc.nextInt();
+    String Address  = sc.nextLine();
     String name  = sc.nextLine();
-    System.out.println("Enter AGE : " + age);
     System.out.println("Enter Name : " + name);
+    System.out.println("Enter Addess : " + Address);
     
       sc.close();
    }
