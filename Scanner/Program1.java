@@ -4,6 +4,6 @@ public class Program1 {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         System.out.print("Enter the 1st Number : " + num );
-       
+       sc.close();
     }
 }
