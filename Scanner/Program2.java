@@ -14,10 +14,17 @@ public class Program2 {
     //   System.out.print("Sum of " + num1 + " and " + num2 + " = " + sum);
 
     // Case one
-    String name = sc.nextLine();
-    int age = sc.nextInt();
-    System.out.println("Enter Name : " + name);
+    // String name = sc.nextLine();
+    // int age = sc.nextInt();
+    // System.out.println("Enter Name : " + name);
+    // System.out.println("Enter AGE : " + age);
+
+    //case 2
+    int age  = sc.nextInt();
+    String name  = sc.nextLine();
     System.out.println("Enter AGE : " + age);
+    System.out.println("Enter Name : " + name);
+    
       sc.close();
    }
 }
