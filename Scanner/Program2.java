@@ -25,12 +25,27 @@ public class Program2 {
         // System.out.println("Enter AGE : " + age);
         // System.out.println("Enter Name : " + name);
 
-        // case 2
-        String name = sc.nextLine();
-        String Address = sc.nextLine();
+        // case 3
+        // String name = sc.nextLine();
+        // String Address = sc.nextLine();
+        // System.out.println("Enter Name : " + name);
+        // System.out.println("Enter Addess : " + Address);
 
-        System.out.println("Enter Name : " + name);
-        System.out.println("Enter Addess : " + Address);
+
+        //All types of Primitive data input
+        int i = sc.nextInt();
+        System.out.println("int data is : " +i);
+        byte  b= sc.nextByte();
+        System.out.println("byte data is : " +b);
+        short  s= sc.nextShort();
+        System.out.println("short data is : " +s);
+        float  f= sc.nextFloat();
+        System.out.println("float data is : " +f);
+        long  l= sc.nextByte();
+        System.out.println("long data is : " +l);
+        double d = sc.nextDouble();
+        System.out.println("double data is : " + d);
+
         sc.close();
     }
 }
