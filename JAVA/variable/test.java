@@ -1,4 +1,4 @@
-package variable;
+package JAVA.variable;
 
 public class test {
     //static variable
