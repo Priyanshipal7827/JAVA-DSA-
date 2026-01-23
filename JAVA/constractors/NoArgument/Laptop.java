@@ -1,4 +1,4 @@
-package constractors.NoArgument;
+package JAVA.constractors.NoArgument;
 
 public class Laptop {
    String name;

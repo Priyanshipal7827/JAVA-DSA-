@@ -1,4 +1,4 @@
-package constractors;
+package JAVA.constractors;
 
 public class program1 {
     int x = 10;

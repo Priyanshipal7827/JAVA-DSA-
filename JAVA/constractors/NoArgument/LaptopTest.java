@@ -1,4 +1,4 @@
-package constractors.NoArgument;
+package JAVA.constractors.NoArgument;
 
 public class LaptopTest {
      public static void main(String[] args) {
