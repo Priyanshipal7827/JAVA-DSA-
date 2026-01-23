@@ -1,4 +1,4 @@
-package constractors;
+package constractors.NoArgument;
 
 public class Laptop {
    String name;
