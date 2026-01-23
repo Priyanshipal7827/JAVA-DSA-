@@ -5,8 +5,8 @@ public class Car {
     int hp;
     
     Car(String name , int hp){
-        name = name;
-        hp = hp;
+        this.name = name;
+        this.hp = hp;
 
     }
     public static void test(){
