@@ -1,6 +1,6 @@
 package DSA.Patterns;
 
-public class Q12 {
+public class Q13 {
     public static void main(String[] args) {
         printPattern(7);
     }
