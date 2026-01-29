@@ -8,9 +8,9 @@ public class Q28 {
         int num = 64+1;
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
-                System.out.print((char)num-- +" ");
+                System.out.print((char)num++ +" ");
             }
-           num++;
+           
             System.out.println();
         }
     }
