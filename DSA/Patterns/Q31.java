@@ -2,16 +2,16 @@ package DSA.Patterns;
 
 public class Q31 {
     public static void main(String[] args) {
-        printPattern(7);
+        printPattern(5);
     }
 
     public static void printPattern(int n) {
-        int num = n*(n+1)/2+64;
-        for(int i=n;i>=1;i--){
-            for(int j=n;j>=i;j--){
-                System.out.print(i +  " ");
+        int num = 65+n-1;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print((char)num +  "  ");
             }
-          num++;
+          num--;
             System.out.println();
         }
     }
