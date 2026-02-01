@@ -5,6 +5,7 @@ public class R {
         System.out.println("Enter the Number of Disk : ");
         int n = sc.nextInt();
         toh(n,'A','B','c');
+        sc.close();
     }
     public static void toh(int n,char from,char aux, char to){
         if(n==1){
