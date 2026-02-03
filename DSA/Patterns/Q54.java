@@ -5,7 +5,7 @@ public class Q54 {
         printPattern(5);
     }
     public static void printPattern(int n) {
-        int num = 1;
+        // int num = 1;
         int space = n-1;
         int patternWidth = 1;
         for(int i=1;i<=n;i++){
@@ -17,7 +17,7 @@ public class Q54 {
             }
             space--;
             patternWidth++;
-            
+
             System.out.println();
         }
     }
