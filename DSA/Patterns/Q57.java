@@ -6,7 +6,7 @@ public class Q57 {
     }
     public static void printPattern(int n) {
         int space = n-1;
-        // int patternWidth = 1;
+        int patternWidth = 1;
             int num = n*(n+1)/2;
         
         for(int i=1;i<=n;i++){
@@ -15,13 +15,12 @@ public class Q57 {
              
                 System.out.print("   ");
             }
-            for(int j=1;j<=i;j++){
+            for(int j=1;j<=patternWidth;j++){
                 System.out.print(num-- + "     ");
-                // num--;
+              
             }
             space--;
-            // patternWidth++;
-            // num++;
+           patternWidth++;
             System.out.println();
 
         }
