@@ -4,7 +4,7 @@ public class Q48 {
         printPattern(5);
     }
     public static void printPattern(int n) {
-        int num = 64+1;
+        int num = n*(n-1);
         int space = n-1;
         int patternWidth = 1;
         for(int i = 1;i<=n;i++){
@@ -13,6 +13,7 @@ public class Q48 {
             }
             for(int j=1;j<=patternWidth;j++){
                 System.out.print((char)num+" ");
+                num--;
             }
             space--;
             patternWidth++;
