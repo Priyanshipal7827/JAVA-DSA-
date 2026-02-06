@@ -7,7 +7,7 @@ public class Q63 {
     public static void printPeterns(int n) {
         int space = n-1;
     int patternWidth = 1;
-    int num = n+;
+    int num = n+64;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=space;j++){
             System.out.print("  ");
@@ -17,7 +17,7 @@ public class Q63 {
         }
         space--;
         patternWidth++;
-        // num++;
+        num--;
         System.out.println();
     }
     }
