@@ -8,15 +8,16 @@ public class Q64 {
 
     public static void printPattern(int n) {
         int space = n - 1;
-        int num = 1;
+        int num = 65;
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= space; j++) {
                 System.out.print("  ");
             }
             for (int j = i; j >= 1; j--) {
-                System.out.print(j + "   ");
+                System.out.print((char)num + "   ");
             }
             space--;
+            num++;
             System.out.println();
         }
     }
