@@ -1,4 +1,3 @@
-package DSA.Patterns;
 public class Q33 {
     public static void main(String[] args) {
         printPattern(7);
