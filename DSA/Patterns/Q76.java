@@ -10,18 +10,16 @@ public class Q76 {
             for(int j=1;j<=space;j++){
                 System.out.print("  ");
             }
-            // Left part - 1 se i tak
-            for(int j=1;j<=i;j++){
-                System.out.print(j+" ");
-            }
-            // Right part - i-1 se 1 tak
-            for(int j=i-1;j>=1;j--){
-                System.out.print(j+" ");
+            // Single loop with if-else
+            for(int j=1;j<=2*i-1;j++){
+                if(j<=i){
+                    System.out.print(j+" ");
+                } else {
+                    System.out.print((2*i-j)+" ");
+                }
             }
             space--;
             System.out.println();
         }
     }
-
-
 }
