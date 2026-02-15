@@ -9,6 +9,7 @@ public class Q76 {
             // Space loop
             for(int j=1;j<=space;j++){
                 System.out.print("  ");
+                
             }
             // Single loop with if-else
             for(int j=1;j<=2*i-1;j++){
