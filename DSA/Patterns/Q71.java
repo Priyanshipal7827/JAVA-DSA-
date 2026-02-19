@@ -5,15 +5,13 @@ public class Q71 {
     printPattern(5);
    }
    public static void printPattern(int n) {
-        int space = n-1; 
-        int num =1;       
+        int space = n-1;               
         for(int i=1;i<=n;i++){
             for(int j=1;j<=space;j++){
                 System.out.print("  ");
             }
             for(int j=1;j<=2*i-1;j++){
-                System.out.print(j+ " ");
-                num++;               
+                System.out.print(j+ " ");                              
             }
             space--;           
             System.out.println();

@@ -13,5 +13,6 @@ public class arrayProgram4 {
         else{
             System.out.println(element +" is not found in the array but can fit at index : "+(-index -1));
         }
+        sc.close();
     }
 }
