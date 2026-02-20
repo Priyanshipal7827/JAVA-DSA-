@@ -1,3 +1,4 @@
+package DSA.Arrays;
 public class findFrequency{
     public static void main(String[] args){
         int[] arr = {12,17,12,12,18,12,17,18,10,10,12};
