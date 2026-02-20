@@ -8,9 +8,6 @@ public class Q3 {
         // System.out.println(n);  //78     helping n
         System.out.println(n/10);//7
         System.out.println(n%10);//8
-
-
-
     }
 }
 

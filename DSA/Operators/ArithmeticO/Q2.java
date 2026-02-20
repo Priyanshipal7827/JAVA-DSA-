@@ -11,4 +11,5 @@ public class Q2 {
         // System.out.println(n%10);
 
     }
+    
 }
