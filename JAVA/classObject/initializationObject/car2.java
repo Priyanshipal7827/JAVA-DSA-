@@ -14,9 +14,9 @@ public class car2 {
     //access or getter method
     public void printDetails(){
         System.out.println("==============================");
-        System.out.println("Name is :" + name);
-        System.out.println("Price is :" + price);
-        System.out.println("HP is :" + hp);
+        System.out.println("Name is : " + name);
+        System.out.println("Price is : " + price);
+        System.out.println("HP is : " + hp);
         System.out.println("===============================");
 
     }
