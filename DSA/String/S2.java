@@ -5,6 +5,6 @@ public class S2 {
 
     }
     public static String Shiftdigit(String s){
-        StringB
+        String
     }
 }
