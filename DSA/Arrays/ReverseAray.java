@@ -2,11 +2,13 @@ package DSA.Arrays;
 
 public class ReverseAray {
     public static void main(String[] args) {
-        int[] arr = {10,20,30,40,50};
+        int[] arr = {10,20,30,40,50}; 
+        System.out.print("Origenal Array : ");    
         for(int n:arr){
-            System.out.print(n +" ");
-        }
+            System.out.print(n+ " ");
+        }   
         reverseArray(arr);
+        System.out.print("\nReversed Array : ");
         for(int n:arr){
             System.out.print(n +" ");
         }
